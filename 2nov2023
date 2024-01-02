@@ -1,0 +1,79 @@
+#include <iostream>
+#include <string>
+using namespace std;
+
+class Book
+{
+private:
+  char* author;
+  string title;
+  int pages_no;
+  int* page_words_count;
+  bool online;
+
+  Book(char* author, string title, int pages_no, int* page_words_count, bool online) : author(_author), title(_title), pages_no (_pages_no), page_words_count (_page_words_count), online(_online)
+  {
+    this->author = new char[strlen(_author) + 1];
+    this->title = new char[strlen(_title) + 1];
+    this->page_words_count = new int[_pages_no];
+    for(int index = 0; index < _pages_no; index++)
+    {
+      this->page_words_count[index]=_pages_no[index];
+    }
+  }
+
+  Book(const Book& book) : Book(book.author, book.title, book.pages_no, book.page_words_count, book.online)
+  {
+  }
+
+  void set_page_words_count(int* _page_words_count, int pages_no)
+  {
+    this->pages_no = _pages_no;
+    this->page_words_count = new int[_pages_no];
+    for (int index = 0; index < _pages_no; index++)
+    {
+      this->page_words_count[index] = _page_words_count[index];
+    }
+  }
+
+  void set_title(string _title)
+  {
+    this->title = _title;
+  }
+
+  void author(char* _author)
+  {
+    this->author = _author;
+  }
+
+  vid online(bool _online)
+  {
+    this->online = _online;
+  }
+
+  char* get_author() {return this->author; }
+  string get_title() {return this->title; }
+  int get_pages_no() {return this->pages_no; }
+  int* get_page_words_count() {return this->page_words_count; }
+  bool get_online() {return this->online; }
+
+  ~Student()
+  {
+    delete this->author;
+    delete this->title;
+    delete this->pages_no;
+    delete this->page_words_count;
+    delete this->online;
+  }
+  
+};
+
+int main()
+{
+  Book b0;
+  b0.set_author("Ion Creanga");
+  b0.set_title("Amintiri Din Copilarie");
+  b0.set_pages_no(pages_no, 234);
+  b0.set_page_word_count(page_word_count, 64);
+  b0.set_online(TRUE);
+}
