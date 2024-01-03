@@ -1,0 +1,62 @@
+﻿  Source.cpp
+C:\Users\danbo\Desktop\recap\recap\Source.cpp(53,15): error C2061: syntax error: identifier 'constr'
+C:\Users\danbo\Desktop\recap\recap\Source.cpp(47,18): error C2065: 'newstring': undeclared identifier
+C:\Users\danbo\Desktop\recap\recap\Source.cpp(55,7): error C2065: '_nume': undeclared identifier
+C:\Users\danbo\Desktop\recap\recap\Source.cpp(58,33): error C2065: 's': undeclared identifier
+C:\Users\danbo\Desktop\recap\recap\Source.cpp(58,1): error C3078: array size must be specified in new expressions without an initializer
+C:\Users\danbo\Desktop\recap\recap\Source.cpp(59,32): error C2065: 's': undeclared identifier
+C:\Users\danbo\Desktop\recap\recap\Source.cpp(59,45): error C2065: 's': undeclared identifier
+C:\Users\danbo\Desktop\recap\recap\Source.cpp(59,4): error C2660: 'strcpy_s': function does not take 1 arguments
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\ucrt\string.h(32,30): message : see declaration of 'strcpy_s'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\ucrt\string.h(124,1): message : could be 'errno_t strcpy_s(char (&)[_Size],const char *) throw()'
+C:\Users\danbo\Desktop\recap\recap\Source.cpp(59,4): message : 'errno_t strcpy_s(char (&)[_Size],const char *) throw()': expects 2 arguments - 1 provided
+C:\Users\danbo\Desktop\recap\recap\Source.cpp(59,4): message : while trying to match the argument list '(char *)'
+C:\Users\danbo\Desktop\recap\recap\Source.cpp(67,7): error C2065: '_medici': undeclared identifier
+C:\Users\danbo\Desktop\recap\recap\Source.cpp(71,19): error C2065: 'newstring': undeclared identifier
+C:\Users\danbo\Desktop\recap\recap\Source.cpp(71,29): error C2065: 's': undeclared identifier
+C:\Users\danbo\Desktop\recap\recap\Source.cpp(73,23): error C2065: 's': undeclared identifier
+C:\Users\danbo\Desktop\recap\recap\Source.cpp(89,25): error C2664: 'size_t strlen(const char *)': cannot convert argument 1 from 'std::string *' to 'const char *'
+C:\Users\danbo\Desktop\recap\recap\Source.cpp(89,36): message : Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or parenthesized function-style cast
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\ucrt\string.h(215,16): message : see declaration of 'strlen'
+C:\Users\danbo\Desktop\recap\recap\Source.cpp(89,25): message : while trying to match the argument list '(std::string *)'
+C:\Users\danbo\Desktop\recap\recap\Source.cpp(89,1): error C3078: array size must be specified in new expressions without an initializer
+C:\Users\danbo\Desktop\recap\recap\Source.cpp(90,18): error C2664: 'size_t strlen(const char *)': cannot convert argument 1 from 'std::string *' to 'const char *'
+C:\Users\danbo\Desktop\recap\recap\Source.cpp(90,29): message : Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or parenthesized function-style cast
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\ucrt\string.h(215,16): message : see declaration of 'strlen'
+C:\Users\danbo\Desktop\recap\recap\Source.cpp(90,18): message : while trying to match the argument list '(std::string *)'
+C:\Users\danbo\Desktop\recap\recap\Source.cpp(90,3): error C2660: 'strcpy_s': function does not take 2 arguments
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\ucrt\string.h(32,30): message : see declaration of 'strcpy_s'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\ucrt\string.h(124,1): message : could be 'errno_t strcpy_s(char (&)[_Size],const char *) throw()'
+C:\Users\danbo\Desktop\recap\recap\Source.cpp(90,3): message : 'errno_t strcpy_s(char (&)[_Size],const char *) throw()': could not deduce template argument for 'char (&)[_Size]' from 'char *'
+C:\Users\danbo\Desktop\recap\recap\Source.cpp(90,3): message : while trying to match the argument list '(char *, std::string *)'
+C:\Users\danbo\Desktop\recap\recap\Source.cpp(96,10): error C2653: 'Spitall': is not a class or namespace name
+C:\Users\danbo\Desktop\recap\recap\Source.cpp(105,4): error C2660: 'Spital::setNume': function does not take 1 arguments
+C:\Users\danbo\Desktop\recap\recap\Source.cpp(53,7): message : see declaration of 'Spital::setNume'
+C:\Users\danbo\Desktop\recap\recap\Source.cpp(105,4): message : while trying to match the argument list '(char *)'
+C:\Users\danbo\Desktop\recap\recap\Source.cpp(126,16): error C2440: 'delete': cannot convert from 'std::string' to 'void*'
+C:\Users\danbo\Desktop\recap\recap\Source.cpp(126,16): message : No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+C:\Users\danbo\Desktop\recap\recap\Source.cpp(133,20): error C2248: 'Spital::cif': cannot access private member declared in class 'Spital'
+C:\Users\danbo\Desktop\recap\recap\Source.cpp(7,15): message : see declaration of 'Spital::cif'
+C:\Users\danbo\Desktop\recap\recap\Source.cpp(5,7): message : see declaration of 'Spital'
+C:\Users\danbo\Desktop\recap\recap\Source.cpp(134,21): error C2248: 'Spital::nume': cannot access private member declared in class 'Spital'
+C:\Users\danbo\Desktop\recap\recap\Source.cpp(8,8): message : see declaration of 'Spital::nume'
+C:\Users\danbo\Desktop\recap\recap\Source.cpp(5,7): message : see declaration of 'Spital'
+C:\Users\danbo\Desktop\recap\recap\Source.cpp(135,23): error C2248: 'Spital::adresa': cannot access private member declared in class 'Spital'
+C:\Users\danbo\Desktop\recap\recap\Source.cpp(9,9): message : see declaration of 'Spital::adresa'
+C:\Users\danbo\Desktop\recap\recap\Source.cpp(5,7): message : see declaration of 'Spital'
+C:\Users\danbo\Desktop\recap\recap\Source.cpp(136,26): error C2248: 'Spital::nrMedici': cannot access private member declared in class 'Spital'
+C:\Users\danbo\Desktop\recap\recap\Source.cpp(11,6): message : see declaration of 'Spital::nrMedici'
+C:\Users\danbo\Desktop\recap\recap\Source.cpp(5,7): message : see declaration of 'Spital'
+C:\Users\danbo\Desktop\recap\recap\Source.cpp(137,23): error C2248: 'Spital::nrMedici': cannot access private member declared in class 'Spital'
+C:\Users\danbo\Desktop\recap\recap\Source.cpp(11,6): message : see declaration of 'Spital::nrMedici'
+C:\Users\danbo\Desktop\recap\recap\Source.cpp(5,7): message : see declaration of 'Spital'
+C:\Users\danbo\Desktop\recap\recap\Source.cpp(138,10): error C2248: 'Spital::medici': cannot access private member declared in class 'Spital'
+C:\Users\danbo\Desktop\recap\recap\Source.cpp(10,10): message : see declaration of 'Spital::medici'
+C:\Users\danbo\Desktop\recap\recap\Source.cpp(5,7): message : see declaration of 'Spital'
+C:\Users\danbo\Desktop\recap\recap\Source.cpp(153,4): error C2660: 'Spital::setNume': function does not take 1 arguments
+C:\Users\danbo\Desktop\recap\recap\Source.cpp(53,7): message : see declaration of 'Spital::setNume'
+C:\Users\danbo\Desktop\recap\recap\Source.cpp(153,4): message : while trying to match the argument list '(const char [9])'
+C:\Users\danbo\Desktop\recap\recap\Source.cpp(154,2): error C2593: 'operator <<' is ambiguous
+C:\Users\danbo\Desktop\recap\recap\Source.cpp(131,10): message : could be 'std::ostream &operator <<(std::ostream &,Spital &)'
+C:\Users\danbo\Desktop\recap\recap\Source.cpp(99,18): message : or       'std::ostream &operator <<(std::ostream &,Spital)' [found using argument-dependent lookup]
+C:\Users\danbo\Desktop\recap\recap\Source.cpp(154,2): message : while trying to match the argument list '(std::ostream, Spital)'
